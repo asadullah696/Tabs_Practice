@@ -1,0 +1,79 @@
+div.container{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(100vh);
+    width: calc(100vw);
+    background-color: lightgreen;
+    /* flex-direction: row; */
+}
+div.nav{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(10vh);
+    width: calc(100vh);
+    background-color: lightcoral;
+    flex-direction: row;
+}
+div.tabs{
+    display: flex;
+    height: inherit;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: calc(3vw);
+    background-color: blue;
+    margin-left: calc(5vw);
+    /* padding-left: calc(1vw);
+    padding-right: calc(1vw); */
+}
+li{
+    list-style-type: none;
+    height: inherit;
+    width: calc(8vw);
+    display: flex;
+    margin-left: calc(0vw);
+    font-size: larger;
+    line-height: calc(10vh);
+    /* padding-top: calc(2vh); */
+    justify-content: center;
+    color: white;
+    /* border-left: 1px solid black; */
+    border-right: 1px solid black;
+    cursor: pointer;
+    /* text-align: center; */
+}
+div.cmpnyname{
+    height: inherit;
+}
+h1{
+    display: inline-block;
+    width: calc(23vw);
+    /* list-style: calc(10vh); */
+    text-align: center;
+    height: inherit;
+    justify-content: center;
+    text-rendering: auto;
+}
+div.tab-data{
+    display: flex;
+    position: absolute;
+    top: calc(11vh);
+    left: calc(28vw);
+    height: calc(89vh);
+    width: calc(40.5vw);
+    background-color: lightpink;
+}
+div.tab-content{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    background-color: gray;
+    display: none;
+}
+
+
+
