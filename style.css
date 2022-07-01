@@ -49,6 +49,16 @@ li{
 div.cmpnyname{
     height: inherit;
 }
+div.activecontent{
+    display: block;
+    background-color: gray;
+    display: flex;
+    height: inherit;
+    width: inherit;
+}
+.activetab{
+    background-color: green;
+}
 h1{
     display: inline-block;
     width: calc(23vw);
@@ -67,6 +77,12 @@ div.tab-data{
     width: calc(40.5vw);
     background-color: lightpink;
 }
+h2{
+    color: red;
+    font-family: bold;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+}
 div.tab-content{
     display: flex;
     height: inherit;
@@ -74,6 +90,15 @@ div.tab-content{
     background-color: gray;
     display: none;
 }
-
+p{
+    margin-top: calc(15vh);
+    cursor: default;
+    justify-content: center;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
 
 
