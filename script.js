@@ -35,7 +35,7 @@ function aboutAr(){
     document.getElementById("tab1").style.backgroundColor = "black"
     document.getElementById("tab-content2").style.display = "none"
     document.getElementById("tab2").style.backgroundColor = "black"
-    document.getElementById("tab-content3").style.display = "green"
+    document.getElementById("tab-content3").style.display = "block"
     document.getElementById("tab3").style.backgroundColor = "green"
     document.getElementById("tab-content4").style.display = "none"
     document.getElementById("tab4").style.backgroundColor = "black"
