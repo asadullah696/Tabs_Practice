@@ -14,8 +14,9 @@ div.nav{
     top: calc(0vh);
     left: calc(0vw);
     height: calc(10vh);
-    width: calc(100vh);
-    background-color: lightcoral;
+    width: calc(100vw);
+    background-color: rgb(255, 3, 3);
+    color: yellow;
     flex-direction: row;
 }
 div.tabs{
@@ -29,6 +30,9 @@ div.tabs{
     margin-left: calc(5vw);
     /* padding-left: calc(1vw);
     padding-right: calc(1vw); */
+}
+div.navbtn{
+    display: none;
 }
 li{
     list-style-type: none;
@@ -65,6 +69,7 @@ h1{
     /* list-style: calc(10vh); */
     text-align: center;
     height: inherit;
+    font-size: 25px;
     justify-content: center;
     text-rendering: auto;
 }
@@ -74,21 +79,25 @@ div.tab-data{
     top: calc(11vh);
     left: calc(28vw);
     height: calc(89vh);
-    width: calc(40.5vw);
+    width: calc(48.5vw);
     background-color: lightpink;
+    
 }
 h2{
     color: red;
     font-family: bold;
     text-shadow: 2px 2px black;
-    font-size: 40px;
+    font-size: 35px;
+    /* text-align: center; */
 }
 div.tab-content{
     display: flex;
+    position: absolute;
     height: inherit;
     width: inherit;
     background-color: gray;
     display: none;
+    overflow-y: scroll;
 }
 p{
     margin-top: calc(15vh);
@@ -100,5 +109,310 @@ p{
 ::-webkit-scrollbar{
     display: none;
 }
+div.aa{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+}
+p.mailfrom{
+    display: flex;
+    position: absolute;
+    left: calc(1vw);
+    top: calc(0vh);
+    font: 1em sans-serif;
+    text-align: center;
+    /* line-height: 0px; */
+}
+p.mail{
+    display: flex;
+    font: 0.8em sans-serif;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(15vw);
+    /* line-height: 5px; */
+}
+p.date{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(2vw);
+    bottom: calc(0vh);
+}
+div.ab{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-top: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vh);
+}
+div.ac{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+}
+div.ad{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+}
+div.ae{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+}
+div.af{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+}
+div.ag{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+}
+div.ah{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+}
+div.ai{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(40vh);
+    left: calc(0vw);
+}
+div.aj{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);    
+    display: flex;
+    position: absolute;
+    top: calc(45vh);
+    left: calc(0vw);
+}
+div.ak{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(50vh);
+    left: calc(0vw);
+}
+div.al{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(55vh);
+    left: calc(0vw);
+}
+div.am{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(60vh);
+    left: calc(0vw);
+}
+div.an{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(65vh);
+    left: calc(0vw);
+}
+div.ao{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(70vh);
+    left: calc(0vw);
+}
+div.ap{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(75vh);
+    left: calc(0vw);
+}
+div.aq{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(80vh);
+    left: calc(0vw);
+}
+div.ar{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(85vh);
+    left: calc(0vw);
+}
+div.as{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(90vh);
+    left: calc(0vw);
+}
+div.at{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(95vh);
+    left: calc(0vw);
+}
+div.au{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(100vh);
+    left: calc(0vw);
+}
+div.av{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(105vh);
+    left: calc(0vw);
+}
+div.aw{
+    height: calc(5vh);
+    width: calc(78.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(110vh);
+    left: calc(0vw);
+}
+div.ax{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(115vh);
+    left: calc(0vw);
+}
+div.ay{
+    height: calc(5vh);
+    width: calc(48.5vw);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    position: absolute;
+    top: calc(120vh);
+    left: 0%;
+}
+/* div.inhvr:hover{
+    background-color: black;
+    color: white;
+    border-left: 3px solid red;
+} */
 
-
+@media screen and (max-width: 1025px){
+    div.nav{
+        flex-direction: column;
+    }
+    div.tab-data{
+        top: calc(22vh);
+        left: calc(5vw);
+    }
+}
+@media screen and (max-width: 990px) {
+    div.nav{
+        flex-direction: row;
+    }
+    div.tabs{
+        display: none;
+    }
+    div.tab-data{
+        top: calc(11vh);
+        left: calc(1vw);
+    }
+    h1.cmpnyname{
+        width: calc(30vw);
+        display: inline-block;
+        font-size: 30px;
+    }
+    div.navbtn{
+        display: flex;
+        position: absolute;
+        right: calc(3vw);
+        top: calc(2vh);
+        width: calc(4vw);
+        height: calc(6vh);
+        background-color: blue;
+    }
+    div.navbtntabs{
+        display: block;
+        /* flex-direction: column; */
+        position: absolute;
+        top: calc(10vh);
+        right: calc(3vw);
+        height: calc(50vh);
+        width: calc(100vw);
+        border: none;
+    }
+}
+/* @media screen and(max-width : 910px) {
+    h1.cmpnyname{
+        width: calc(50vw);
+        font-size: 10px;
+    }
+} */
